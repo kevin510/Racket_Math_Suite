@@ -1,0 +1,18 @@
+README
+Kevin Gray
+CSC 173 Project 3
+
+All work is my own. I did the following functions:
+append (my_append)
+reverse (my_reverse)
+indexof
+member (my_member)
+cardinality
+insert (my_insert)
+factorial
+right-tri
+absolute value (my_abs)
+perfect?
+abundant?
+deficient?
+find_factors- a helper function for the last three
