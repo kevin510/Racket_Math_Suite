@@ -1,3 +1,6 @@
+; Kevin Gray
+; CSC 173
+; Project 3
 #lang racket
 
 (define (my_append x y)
