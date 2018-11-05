@@ -13,13 +13,6 @@
   (if (null? lst) acc
       (my_reverse-h (cdr lst) (cons (car lst) acc))))
 
-(define (indexof c lst)
-  (indexof-h c lst -1))
-(define (indexof-h c lst i)
-  (if (null? lst) -1
-      (if (equal? c (car lst)) (+ i 0)
-          (indexof-h c (cdr lst) (+ i 1)))))
-
 (define (my_member c set)
   (if (null? set) #f
       (if (equal? c (car set)) #t
